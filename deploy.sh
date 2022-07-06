@@ -4,7 +4,7 @@
 set -e
 
 # 生成静态文件
-npm run build
+# npm run build
 
 # 进入生成的文件夹
 cd ./dist
@@ -20,7 +20,7 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO> https://github.com/GeneralRookie/mhxzx.git master:gh-pages
-git push -f git@github.com:1809875232/wuyinbo.git main:gh-pages
+git push -f git@github.com:1809875232/wuyinbo.git master:gh-pages
 # git remote set-url origin http://用户名:密码@github.com/spring/spring-framework.git
 #链接远程仓库
 git remote add origin https://github.com/1809875232/wuyinbo.git
