@@ -26,9 +26,7 @@ export class HomeComponent implements OnInit {
     });
   }
   loding() {
-    console.log(this.pass)
-    if (this.pass === '555666') {
-      console.log('yes')
+    if (this.pass === '0823') {
       this.isgo = true
     } else {
       this.pass = ''
