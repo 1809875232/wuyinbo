@@ -6,19 +6,26 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './component/home/home.component';
 import { DistContentComponent } from './component/dist-content/dist-content.component';
+import { TestCompontComponent } from './component/test-compont/test-compont.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    DistContentComponent
+    DistContentComponent,
+    TestCompontComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+
+
+
   ],
-  providers: [],
+  providers: [
+
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
